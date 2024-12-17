@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <h3><u>Registration Form</u></h3>
+    <form action="/submit-form" method="post">
+
+        <b>Email ID: </b><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <b>Password:</b><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <i>Phone Number:</i><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <b>Address:</b><br>
+        <textarea id="address" name="address" rows="4" cols="30" required></textarea><br><br>
+
+        <b>Gender: </b><br>
+        <input type="radio" id="male" name="gender" value="male" required> Male<br>
+        <input type="radio" id="female" name="gender" value="female" required> Female<br><br>
+
+        <b>Favorite Game: </b><br>
+        <input type="radio" id="football" name="game" value="football" required> Football<br>
+        <input type="radio" id="volleyball" name="game" value="volleyball" required> Volleyball<br>
+        <input type="radio" id="chess" name="game" value="chess" required> Chess<br>
+        <input type="radio" id="basketball" name="game" value="basketball" required> Basketball<br><br>
+
+        <b>Entry Fee:</b><br>
+        Amount (in USD): <br>
+        <input type="number" id="entry-fee" name="entry-fee" min="0" required><br><br>
+
+        <b>Payment Method: </b><br>
+        <input type="radio" id="credit" name="payment" value="credit" required> Credit Card<br>
+        <input type="radio" id="debit" name="payment" value="debit" required> Debit Card<br><br>
+
+        <b>Card Number:</b><br>
+        <select id="cardnumber" name="cardnumber" required>
+            <option value="" disabled selected>Select Card Number</option>
+            <option value="1234567891234567">1234 5678 9123 4567</option>
+            <option value="8765432187654321">8765 4321 8765 4321</option>
+            <option value="1122334411223344">1122 3344 1122 3344</option>
+        </select><br><br>
+
+        <b>Expiry Date: </b><br>
+        <input type="month" id="expiry-date" name="expiry-date" required><br><br>
+
+        <a href="URL">Get more information, please click here</a><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

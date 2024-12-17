@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Flexbox</title>
+
+<style>
+
+body {
+
+font-family: Arial , Helvetica, sans-serif;
+
+font-size: 20px;
+
+padding: 0 20px 30px 0;
+
+line-height: 1.4;
+
+}
+
+/* Corrected class for flex container */
+
+.flex-container {
+
+display: flex;
+
+flex-wrap: wrap;
+
+gap: 10px; /* Added spacing between items */
+
+}
+
+.flex-item {
+
+width: 75px;
+
+height: 75px;
+
+background-color: lightskyblue;
+
+border: 2px solid darkblue;
+
+text-align: center;
+
+font-size: 2em;
+
+color: white;
+
+font-weight: bold;
+
+display: flex;
+
+align-items: center;
+
+}
+
+justify-content: center;
+
+/* Specific style for the first flex item */
+
+#flex-item-1 {
+
+background-color: lightpink;
+font-size: 2em;
+
+color: white;
+
+font-weight: bold;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+/* Specific style for the first flex item */
+
+#flex-item-1 {
+
+background-color: lightpink;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="flex-container">
+
+<div class="flex-item" id="flex-item-1">1</div>
+
+<div class="flex-item" id="flex-item-2">2</div>
+
+<div class="flex-item" id="flex-item-3">3</div>
+
+<div class="flex-item" id="flex-item-4">4</div>
+
+<div class="flex-item" id="flex-item-5">5</div> <div class="flex-item" id="flex-item-6">6</div>
+
+<div class="flex-item" id="flex-item-7">7</div>
+
+</div>
+
+</body>
+
+</html>
